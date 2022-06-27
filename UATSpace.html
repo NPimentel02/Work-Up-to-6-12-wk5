@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--HTML for UAT Space in CSC102
+by: Nick Pimentel
+nicpimen@uat.edu-->
+<html>
+
+<head>
+    <!--links up code.js with our html file-->
+    <script src="code.js"></script>
+    <!--title at top bar for webpage-->
+    <title>
+        Nick's UATSpace Page
+    </title>
+    <script>
+        var writeText = "Test of the document.write() function"
+        var alertText = "test of the alert function";
+        alert(alertText)
+    </script>
+    <style>
+       body{
+           background-color: royalblue;
+       }
+    </style>
+</head>
+
+<body>
+    <img src="UATspaceLogo.jpg">
+    
+    <!--Big bold header material-->
+    <h1>UAT Space Program</h1>
+
+    <script>
+        //document.write print the arguement on the screen
+        document.write(writeText);
+
+
+    </script>
+    <p>Test of the paragraph tags</p>
+    <br>
+    <br>
+    Countdown Timer<br>
+    <div id="countdownDisplay">Countdown will display here</div>
+    <br>
+    if(countdownDisplay=25){}
+    <br>
+    <button onclick="countdownTimerV1();">Start</button>
+    <button>Stop</button>
+    <br>
+    <br>
+    <!--Line 57 and 58 are used to introduce the player to the game-->
+    <h1>Craps Game!!!</h1> 
+    <h2>Please Play!</h2>
+    <!--Line 59 and 60 are used so when the player presses these buttons - -->
+    Die 1 result: <div id="die1Res">Press Play Craps to roll dice</div><br> 
+    <!-- - they have both Die's roll and put out a number-->
+    <div id="crapsRes">Game Results</div><br>
+    Die 2 result: <div id="die2Res">Press Play Craps to roll dice</div><br><
+    <div id="crapsRes">Game Results</div><br>
+    <br>
+    <!--This tell what the button "Play Craps" should do-->
+    <button onclick="playCraps();">Play craps</button> 
+    <br>
+    <br>
+    Wins<br> <!--Lines 66-71 shows the players wins, losses, and ties-->
+    <div id="winRes">get some wins</div><br>
+    Losses<br>
+    <div id="loseRes">get some losses</div><br>
+    Tie<br>
+    <div id="tieRes">get some ties</div><br>
+</body>
+
+</html>
